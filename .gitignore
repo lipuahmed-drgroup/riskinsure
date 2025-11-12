@@ -1,0 +1,10 @@
+bin/
+Client/Risk/bin
+obj/
+*.suo
+.vs/
+$tf/
+/Client/Risk/obj/Debug/
+Client/Risk/obj/Debug/
+/Client/Risk/bin
+/Client/Risk/obj

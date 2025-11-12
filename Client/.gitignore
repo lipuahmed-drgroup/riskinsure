@@ -1,0 +1,6 @@
+bin/
+Risk/bin
+obj/
+*.suo
+.vs/
+$tf/
