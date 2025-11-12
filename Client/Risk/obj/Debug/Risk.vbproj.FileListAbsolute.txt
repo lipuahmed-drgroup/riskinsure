@@ -1317,3 +1317,131 @@ C:\code\RiskInsure\Client\Risk\obj\Debug\Risk.application
 C:\code\RiskInsure\Client\Risk\obj\Debug\Risk.exe
 C:\code\RiskInsure\Client\Risk\obj\Debug\Risk.xml
 C:\code\RiskInsure\Client\Risk\obj\Debug\Risk.pdb
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\likewize-services-240x240.ico
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\loading.png
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\RiskLogo.png
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Risk.exe.config
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Risk.exe.manifest
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Risk.application
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Risk.exe
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Risk.pdb
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Risk.xml
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\acclIconComboBox.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Allphones Unable to Renew.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Cash Settlement Excess Paid.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Cash Settlement Pre Paid.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Cash Settlement Standard.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Copy of Cash Settlement Pre Paid.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Credit Card Authorization Form.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Damaged Handset Letter.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Declaration Refusal.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Denial Fraud.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Denial Unattended Open Air (AAPT).vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Denial Unattended Open Air (Primus).vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Denial Unattended Open Air (Virgin,Soul,ACN,Reward).vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Denial Unlocked Vehicle (AAPT).vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Denial Unlocked Vehicle (ACN,Reward,Soul).vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Denial Unlocked Vehicle (Primus).vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Denial Unlocked Vehicle (Virgin).vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Denial Wear Tear + Warranty (AAPT).vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Denial Wear Tear + Warranty (Primus).vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Denial WearTear + Warranty (Virgin,Soul,ACN,Reward).vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Imei Barring Letter.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.iPhone Liquid Cash Settlement Letter.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.iPhone Liquid Damage Letter.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Policy Wording Cover Letter.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Remains Declined.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Unable To Contact Awaiting Details.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Unable To Contact Claim Approved.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Unable to Renew - Pre Paid.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Unable to Renew.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Crystal.Unauthorised Calls.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Data Set.DataSet1.Designer.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Data Set.DataSet2.Designer.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Data Set.ImportPhonesAndPricesDataSet.Designer.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Data Set.MaintainPhonePricesDataSet.Designer.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Data Set.PhoneSearchDataSet.Designer.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Data Set.ReconBDataSet.Designer.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Data Set.ReportsDataSet.Designer.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Data Set.RiskDataClasses.designer.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Data Set.RiskDataSet.Designer.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\DataSet2.Designer.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\DGVCopy.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\MultiComboControl.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\My Project.Resources.Designer.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\nsDataClass.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\NullableDateTimePicker.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\RiskDataSet.Designer.vb.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\Tjoc.Windows.Forms.Extenders.dll
+C:\code\projects\riskinsure\Client\Risk\bin\Debug\stdole.dll
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.vbproj.AssemblyReference.cache
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.RiskConfigUI.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.frmEwayExcel.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ClaimsSearchEngine.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ClaimsEdit.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.Main_Menu.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ClaimList.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ClaimTest.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ClassTest.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.EditNote.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.PostCode_Lookup.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ReportViewer.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.Zoom_Form.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.frmCaseManager.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.EditScheme.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ManageScheme.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.GenPM.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ImportPhonePrices.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.MaintainPhonePrices.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.PhoneSearch.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.PhoneEdit.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ReconciliationReports.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.Expenses.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.InheritableDateCriteria.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.LossDateReport.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.LossDateReportFinance.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.LossDateReportFinanceNew.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.OutstandingClaimsReport.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.PartialPaidRecon.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.PaymentsRecon.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.PaymentsReconNew.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ReconB.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ReconBrightpoint.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.DeclinedClaims.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.IMEI_Primus.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.Payment.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ReconDigiMob.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ReportMenu.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.AllClaimsHistory.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.BPayReport.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ClaimsHistory.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.DamagedHandsetsReport.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ExportEwayDetails.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.ExportGeneralData.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.IMEI_Hutch.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.IMEI_ALL.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.IMEI_ACN.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.IMEI_Digiplus.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.IMEI_Virgin.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.IMEI_B.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.IMEI_Reward.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.DailyDiaries.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.IMEI.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.IMEI_AAPT.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.MoreInfoAccuracyReport.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.UnderwritingGuidelines.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.Resources.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.Risk_Insure_Claims_Management_System.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.RiskSplashScreen.resources
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.vbproj.GenerateResource.cache
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.vbproj.CoreCompileInputs.cache
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.exe.manifest
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.application
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.vbproj.CopyComplete
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.exe
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.xml
+C:\code\projects\riskinsure\Client\Risk\obj\Debug\Risk.pdb
