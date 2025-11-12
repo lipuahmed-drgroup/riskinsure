@@ -1,0 +1,1198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B32007EB-F8F7-46B1-867F-45A35F45709A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Risk.My.MyApplication</StartupObject>
+    <RootNamespace>Risk</RootNamespace>
+    <AssemblyName>Risk</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>17C1A740A871864281B2EE72AC575E195857BDDE</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Risk_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <ApplicationIcon>likewize-services-240x240.ico</ApplicationIcon>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>15</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Risk.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Risk.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="acclIconComboBox, Version=1.0.1400.34506, Culture=neutral, PublicKeyToken=6e1b8f817e866f76">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\acclIconComboBox.dll</HintPath>
+    </Reference>
+    <Reference Include="ClaimsMoveCL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ProspectsDatabase\ClaimsMoveCL\ClaimsMoveCL\bin\Debug\ClaimsMoveCL.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Allphones Unable to Renew.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Allphones Unable to Renew.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Cash Settlement Excess Paid.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Cash Settlement Excess Paid.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Cash Settlement Pre Paid.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Cash Settlement Pre Paid.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Cash Settlement Standard.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Cash Settlement Standard.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Copy of Cash Settlement Pre Paid.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Copy of Cash Settlement Pre Paid.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Credit Card Authorization Form.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Credit Card Authorization Form.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Damaged Handset Letter.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Damaged Handset Letter.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Declaration Refusal.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Declaration Refusal.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Denial Fraud.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Denial Fraud.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Denial Unattended Open Air %28AAPT%29.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Denial Unattended Open Air (AAPT).vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Denial Unattended Open Air %28Primus%29.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Denial Unattended Open Air (Primus).vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Denial Unattended Open Air %28Virgin\,Soul\,ACN\,Reward%29.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Denial Unattended Open Air (Virgin,Soul,ACN,Reward).vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Denial Unlocked Vehicle %28AAPT%29.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Denial Unlocked Vehicle (AAPT).vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Denial Unlocked Vehicle %28ACN\,Reward\,Soul%29.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Denial Unlocked Vehicle (ACN,Reward,Soul).vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Denial Unlocked Vehicle %28Primus%29.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Denial Unlocked Vehicle (Primus).vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Denial Unlocked Vehicle %28Virgin%29.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Denial Unlocked Vehicle (Virgin).vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Denial Wear Tear + Warranty %28AAPT%29.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Denial Wear Tear + Warranty (AAPT).vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Denial Wear Tear + Warranty %28Primus%29.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Denial Wear Tear + Warranty (Primus).vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Denial WearTear + Warranty %28Virgin\,Soul\,ACN\,Reward%29.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Denial WearTear + Warranty (Virgin,Soul,ACN,Reward).vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Imei Barring Letter.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Imei Barring Letter.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.iPhone Liquid Cash Settlement Letter.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.iPhone Liquid Cash Settlement Letter.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.iPhone Liquid Damage Letter.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.iPhone Liquid Damage Letter.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Policy Wording Cover Letter.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Policy Wording Cover Letter.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Remains Declined.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Remains Declined.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Unable To Contact Awaiting Details.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Unable To Contact Awaiting Details.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Unable To Contact Claim Approved.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Unable To Contact Claim Approved.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Unable to Renew - Pre Paid.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Unable to Renew - Pre Paid.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Unable to Renew.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Unable to Renew.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Crystal.Unauthorised Calls.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Crystal.Unauthorised Calls.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Data Set.DataSet1.Designer.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Data Set.DataSet1.Designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Data Set.DataSet2.Designer.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Data Set.DataSet2.Designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Data Set.ImportPhonesAndPricesDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Data Set.ImportPhonesAndPricesDataSet.Designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Data Set.MaintainPhonePricesDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Data Set.MaintainPhonePricesDataSet.Designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Data Set.PhoneSearchDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Data Set.PhoneSearchDataSet.Designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Data Set.ReconBDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Data Set.ReconBDataSet.Designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Data Set.ReportsDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Data Set.ReportsDataSet.Designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Data Set.RiskDataClasses.designer.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Data Set.RiskDataClasses.designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="Data Set.RiskDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\Data Set.RiskDataSet.Designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="DataSet2.Designer.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\DataSet2.Designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="DGVCopy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\DGVCopy.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ProspectsDatabase\ClaimsMoveCL\ClaimsMoveCL\bin\Debug\ExcelLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelPackage, Version=1.0.0.1, Culture=neutral, PublicKeyToken=f8bb63aa9d6969e8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ProspectsDatabase\ClaimsMoveCL\ClaimsMoveCL\bin\Debug\ExcelPackage.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="MultiComboControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MultiComboControl.dll</HintPath>
+    </Reference>
+    <Reference Include="My Project.Resources.Designer.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\My Project.Resources.Designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="nsDataClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>publish\Application Files\Risk_1_0_0_7\nsDataClass.dll</HintPath>
+    </Reference>
+    <Reference Include="NullableDateTimePicker, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\NullableDateTimePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="RiskDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\TempPE\RiskDataSet.Designer.vb.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Tjoc.Windows.Forms.Extenders, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Tjoc.Windows.Forms.Extenders.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="nsDataClass" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Controller\RiskConfigUI.Designer.vb">
+      <DependentUpon>RiskConfigUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\RiskConfigUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\RiskController.vb" />
+    <Compile Include="Data Set\DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Set\FreightCostType.vb" />
+    <Compile Include="Data Set\ImportPhonesAndPricesDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ImportPhonesAndPricesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Set\MaintainPhonePricesDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MaintainPhonePricesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Set\PhoneSearchDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhoneSearchDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Set\ReconBDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReconBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Set\ReconBDataSet.vb">
+      <DependentUpon>ReconBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Set\ReportsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Set\ReportsDataSet.vb">
+      <DependentUpon>ReportsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Set\YesNo.vb" />
+    <Compile Include="Entity\CaseManager.vb" />
+    <Compile Include="Entity\CaseManagerDB.vb" />
+    <Compile Include="Entity\Claim.vb" />
+    <Compile Include="Entity\AdvancedList.vb" />
+    <Compile Include="Entity\Phone.vb" />
+    <Compile Include="Entity\PhoneDB.vb" />
+    <Compile Include="Entity\PhonePrice.vb" />
+    <Compile Include="Entity\PhonePriceDB.vb" />
+    <Compile Include="Entity\PostCode.vb" />
+    <Compile Include="Entity\PostCodeDB.vb" />
+    <Compile Include="Entity\RiskUIConfig.vb" />
+    <Compile Include="Entity\RiskUIConfigDB.vb" />
+    <Compile Include="Entity\Scheme.vb" />
+    <Compile Include="Entity\SchemeDB.vb" />
+    <Compile Include="Entity\Supplier.vb" />
+    <Compile Include="Entity\SupplierDB.vb" />
+    <Compile Include="frmEwayExcel.Designer.vb">
+      <DependentUpon>frmEwayExcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEwayExcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\BaseForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine.Designer.vb">
+      <DependentUpon>ClaimsSearchEngine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit.Designer.vb">
+      <DependentUpon>ClaimsEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu.Designer.vb">
+      <DependentUpon>Main Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entity\ClaimDB.vb" />
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\ClaimList.Designer.vb">
+      <DependentUpon>ClaimList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\ClaimList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\ClaimTest.Designer.vb">
+      <DependentUpon>ClaimTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\ClaimTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\ClassTest.Designer.vb">
+      <DependentUpon>ClassTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\ClassTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\EditNote.Designer.vb">
+      <DependentUpon>EditNote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\EditNote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\PostCode_Lookup.Designer.vb">
+      <DependentUpon>PostCode_Lookup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\PostCode_Lookup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\ReportViewer.Designer.vb">
+      <DependentUpon>ReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\ReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\Zoom_Form.Designer.vb">
+      <DependentUpon>Zoom_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\Zoom_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\frmCaseManager.Designer.vb">
+      <DependentUpon>frmCaseManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\frmCaseManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\EditScheme.Designer.vb">
+      <DependentUpon>EditScheme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\EditScheme.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ManageScheme.Designer.vb">
+      <DependentUpon>ManageScheme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ClaimsSearchEngine\ManageScheme.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\HolRep.Designer.vb">
+      <DependentUpon>HolRep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\HolRep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ImportPhonePrices.Designer.vb">
+      <DependentUpon>ImportPhonePrices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ImportPhonePrices.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\MaintainPhonePrices.Designer.vb">
+      <DependentUpon>MaintainPhonePrices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\MaintainPhonePrices.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\PhoneSearch.Designer.vb">
+      <DependentUpon>PhoneSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\PhoneSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\PhoneSearch\PhoneEdit.Designer.vb">
+      <DependentUpon>PhoneEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\PhoneSearch\PhoneEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports.Designer.vb">
+      <DependentUpon>ReconciliationReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\Expenses.Designer.vb">
+      <DependentUpon>Expenses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\Expenses.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\InheritableDateCriteria.Designer.vb">
+      <DependentUpon>InheritableDateCriteria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\InheritableDateCriteria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\LossDateReport.Designer.vb">
+      <DependentUpon>LossDateReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\LossDateReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\LossDateReportFinance.Designer.vb">
+      <DependentUpon>LossDateReportFinance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\LossDateReportFinance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\LossDateReportFinanceNew.Designer.vb">
+      <DependentUpon>LossDateReportFinanceNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\LossDateReportFinanceNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\OutstandingClaimsReport.Designer.vb">
+      <DependentUpon>OutstandingClaimsReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\OutstandingClaimsReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\PartialPaidRecon.Designer.vb">
+      <DependentUpon>PartialPaidRecon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\PartialPaidRecon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\PaymentsRecon.Designer.vb">
+      <DependentUpon>PaymentsRecon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\PaymentsRecon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\PaymentsReconNew.Designer.vb">
+      <DependentUpon>PaymentsReconNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\PaymentsReconNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\ReconB.Designer.vb">
+      <DependentUpon>ReconB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\ReconB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\ReconBrightpoint.Designer.vb">
+      <DependentUpon>ReconBrightpoint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReconciliationReports\ReconBrightpoint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\DeclinedClaims.designer.vb">
+      <DependentUpon>DeclinedClaims.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\DeclinedClaims.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_Primus.Designer.vb">
+      <DependentUpon>IMEI_Primus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_Primus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\Payment.designer.vb">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\Payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\ReconDigiMob.Designer.vb">
+      <DependentUpon>ReconDigiMob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\ReconDigiMob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportMenu.Designer.vb">
+      <DependentUpon>ReportMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\AllClaimsHistory.Designer.vb">
+      <DependentUpon>AllClaimsHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\AllClaimsHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\BPayReport.Designer.vb">
+      <DependentUpon>BPayReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\BPayReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\ClaimsHistory.Designer.vb">
+      <DependentUpon>ClaimsHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\ClaimsHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\DamagedHandsetsReport.Designer.vb">
+      <DependentUpon>DamagedHandsetsReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\DamagedHandsetsReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\ExportEwayDetails.Designer.vb">
+      <DependentUpon>ExportEwayDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\ExportEwayDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\ExportGeneralData.Designer.vb">
+      <DependentUpon>ExportGeneralData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\ExportGeneralData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_Hutch.Designer.vb">
+      <DependentUpon>IMEI_Hutch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_Hutch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_ALL.Designer.vb">
+      <DependentUpon>IMEI_ALL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_ALL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_ACN.Designer.vb">
+      <DependentUpon>IMEI_ACN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_ACN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_Digiplus.Designer.vb">
+      <DependentUpon>IMEI_Digiplus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_Digiplus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_Virgin.Designer.vb">
+      <DependentUpon>IMEI_Virgin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_Virgin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_B.Designer.vb">
+      <DependentUpon>IMEI_B.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_B.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_Reward.Designer.vb">
+      <DependentUpon>IMEI_Reward.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_Reward.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\DailyDiaries.Designer.vb">
+      <DependentUpon>DailyDiaries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\DailyDiaries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI.Designer.vb">
+      <DependentUpon>IMEI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_AAPT.Designer.vb">
+      <DependentUpon>IMEI_AAPT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\IMEI_AAPT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\MoreInfoAccuracyReport.Designer.vb">
+      <DependentUpon>MoreInfoAccuracyReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\MoreInfoAccuracyReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\UnderwritingGuidelines.Designer.vb">
+      <DependentUpon>UnderwritingGuidelines.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MPI Children\Main Menu\ReportsMenu\UnderwritingGuidelines.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Risk Insure Claims Management System.Designer.vb">
+      <DependentUpon>Risk Insure Claims Management System.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Risk Insure Claims Management System.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data Set\RiskDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RiskDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data Set\RiskDataSet.vb">
+      <DependentUpon>RiskDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RiskSplashScreen.Designer.vb">
+      <DependentUpon>RiskSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RiskSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Controls\ExitDoorwayButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User Controls\ImportedUserControls.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controller\RiskConfigUI.resx">
+      <DependentUpon>RiskConfigUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEwayExcel.resx">
+      <DependentUpon>frmEwayExcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ClaimsSearchEngine.resx">
+      <DependentUpon>ClaimsSearchEngine.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit.resx">
+      <DependentUpon>ClaimsEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu.resx">
+      <DependentUpon>Main Menu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\ClaimList.resx">
+      <DependentUpon>ClaimList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\ClaimTest.resx">
+      <DependentUpon>ClaimTest.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\ClassTest.resx">
+      <DependentUpon>ClassTest.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\EditNote.resx">
+      <DependentUpon>EditNote.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\PostCode_Lookup.resx">
+      <DependentUpon>PostCode_Lookup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\ReportViewer.resx">
+      <DependentUpon>ReportViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ClaimsSearchEngine\ClaimsEdit\Zoom_Form.resx">
+      <DependentUpon>Zoom_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\frmCaseManager.resx">
+      <DependentUpon>frmCaseManager.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ClaimsSearchEngine\EditScheme.resx">
+      <DependentUpon>EditScheme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ClaimsSearchEngine\ManageScheme.resx">
+      <DependentUpon>ManageScheme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\HolRep.resx">
+      <DependentUpon>HolRep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ImportPhonePrices.resx">
+      <DependentUpon>ImportPhonePrices.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\MaintainPhonePrices.resx">
+      <DependentUpon>MaintainPhonePrices.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\PhoneSearch.resx">
+      <DependentUpon>PhoneSearch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\PhoneSearch\PhoneEdit.resx">
+      <DependentUpon>PhoneEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReconciliationReports.resx">
+      <DependentUpon>ReconciliationReports.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReconciliationReports\Expenses.resx">
+      <DependentUpon>Expenses.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReconciliationReports\InheritableDateCriteria.resx">
+      <DependentUpon>InheritableDateCriteria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReconciliationReports\LossDateReport.resx">
+      <DependentUpon>LossDateReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReconciliationReports\LossDateReportFinance.resx">
+      <DependentUpon>LossDateReportFinance.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReconciliationReports\LossDateReportFinanceNew.resx">
+      <DependentUpon>LossDateReportFinanceNew.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReconciliationReports\OutstandingClaimsReport.resx">
+      <DependentUpon>OutstandingClaimsReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReconciliationReports\PartialPaidRecon.resx">
+      <DependentUpon>PartialPaidRecon.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReconciliationReports\PaymentsRecon.resx">
+      <DependentUpon>PaymentsRecon.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReconciliationReports\PaymentsReconNew.resx">
+      <DependentUpon>PaymentsReconNew.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReconciliationReports\ReconB.resx">
+      <DependentUpon>ReconB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReconciliationReports\ReconBrightpoint.resx">
+      <DependentUpon>ReconBrightpoint.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\DeclinedClaims.resx">
+      <DependentUpon>DeclinedClaims.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\IMEI_Primus.resx">
+      <DependentUpon>IMEI_Primus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\Payment.resx">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\ReconDigiMob.resx">
+      <DependentUpon>ReconDigiMob.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportMenu.resx">
+      <DependentUpon>ReportMenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\AllClaimsHistory.resx">
+      <DependentUpon>AllClaimsHistory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\BPayReport.resx">
+      <DependentUpon>BPayReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\ClaimsHistory.resx">
+      <DependentUpon>ClaimsHistory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\DamagedHandsetsReport.resx">
+      <DependentUpon>DamagedHandsetsReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\ExportEwayDetails.resx">
+      <DependentUpon>ExportEwayDetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\ExportGeneralData.resx">
+      <DependentUpon>ExportGeneralData.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\IMEI_Hutch.resx">
+      <DependentUpon>IMEI_Hutch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\IMEI_ALL.resx">
+      <DependentUpon>IMEI_ALL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\IMEI_ACN.resx">
+      <DependentUpon>IMEI_ACN.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\IMEI_Digiplus.resx">
+      <DependentUpon>IMEI_Digiplus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\IMEI_Virgin.resx">
+      <DependentUpon>IMEI_Virgin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\IMEI_B.resx">
+      <DependentUpon>IMEI_B.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\IMEI_Reward.resx">
+      <DependentUpon>IMEI_Reward.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\DailyDiaries.resx">
+      <DependentUpon>DailyDiaries.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\IMEI.resx">
+      <DependentUpon>IMEI.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\IMEI_AAPT.resx">
+      <DependentUpon>IMEI_AAPT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\MoreInfoAccuracyReport.resx">
+      <DependentUpon>MoreInfoAccuracyReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPI Children\Main Menu\ReportsMenu\UnderwritingGuidelines.resx">
+      <DependentUpon>UnderwritingGuidelines.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Sheet1.rdlc" />
+    <EmbeddedResource Include="Risk Insure Claims Management System.resx">
+      <DependentUpon>Risk Insure Claims Management System.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiskSplashScreen.resx">
+      <DependentUpon>RiskSplashScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Crystal\CRRedist2008_x86.msi" />
+    <None Include="Data Set\MaintainPhonePricesDataSet.xsc">
+      <DependentUpon>MaintainPhonePricesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data Set\MaintainPhonePricesDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MaintainPhonePricesDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data Set\MaintainPhonePricesDataSet.xss">
+      <DependentUpon>MaintainPhonePricesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data Set\ReportsDataSet.xsc">
+      <DependentUpon>ReportsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data Set\ReportsDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportsDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data Set\ReportsDataSet.xss">
+      <DependentUpon>ReportsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data Set\RiskDataSet.xsc">
+      <DependentUpon>RiskDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data Set\RiskDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RiskDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data Set\RiskDataSet.xss">
+      <DependentUpon>RiskDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.ReportViewer.8.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Studio 2008 Report Viewer</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VisualBasic.PowerPacks.10.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Basic PowerPacks 10.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\ExcelIcon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data Set\PhoneSearchDataSet.xsc">
+      <DependentUpon>PhoneSearchDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data Set\PhoneSearchDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PhoneSearchDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data Set\PhoneSearchDataSet.xss">
+      <DependentUpon>PhoneSearchDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\excelicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data Set\ImportPhonesAndPricesDataSet.xsc">
+      <DependentUpon>ImportPhonesAndPricesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data Set\ImportPhonesAndPricesDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ImportPhonesAndPricesDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data Set\ImportPhonesAndPricesDataSet.xss">
+      <DependentUpon>ImportPhonesAndPricesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data Set\ReconBDataSet.xsc">
+      <DependentUpon>ReconBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data Set\ReconBDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReconBDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data Set\ReconBDataSet.xss">
+      <DependentUpon>ReconBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Phones.png" />
+    <None Include="Risk_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\v1.1\loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\v1.1\RiskLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="likewize-services-240x240.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="loading.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data Set\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Data Set\DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data Set\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\DataSources\CaseManager.datasource" />
+    <None Include="My Project\DataSources\Claim.datasource" />
+    <None Include="My Project\DataSources\FreightCostType.datasource" />
+    <None Include="My Project\DataSources\Phone.datasource" />
+    <None Include="My Project\DataSources\PhonePrice.datasource" />
+    <None Include="My Project\DataSources\PostCode.datasource" />
+    <None Include="My Project\DataSources\RiskUIConfig.datasource" />
+    <None Include="My Project\DataSources\Scheme.datasource" />
+    <None Include="My Project\DataSources\Supplier.datasource" />
+    <None Include="My Project\DataSources\YesNo.datasource" />
+    <None Include="Resources\Riskico.ico" />
+    <None Include="Resources\ExitDoorWay.bmp" />
+    <None Include="Resources\1278438124_Log_Out.png" />
+    <Content Include="RiskLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

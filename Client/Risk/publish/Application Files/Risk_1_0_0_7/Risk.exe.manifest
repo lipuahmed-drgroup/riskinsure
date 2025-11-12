@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Risk.exe" version="1.0.0.7" publicKeyToken="9a8405eda396cc84" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\Riskico.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Risk" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Risk.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MultiComboControl.dll" size="13824">
+      <assemblyIdentity name="MultiComboControl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Kd+tholxMtjdGC8u2jcZeQbahl0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nsDataClass.dll" size="18432">
+      <assemblyIdentity name="nsDataClass" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>YSrYQJohOo4HbFHRG1CkQcE9tOU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NullableDateTimePicker.dll" size="22016">
+      <assemblyIdentity name="NullableDateTimePicker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>SvGmECyxKkeSoqApKPaoXYlwq14=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Risk.exe" size="4914688">
+      <assemblyIdentity name="Risk" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>6MMC91p/ptpIa9myLISmyie6XjE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="loading.png" size="13492">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bNEiO9ph9bII/4FZfOaD90tbQTw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Riskico.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OLyrAfXGs8zUbxSBGBAqZ10ECjU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Risk.exe.config" size="1813">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NjEFz3C2jLs4vJnuXyiNzqz54dg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RiskLogo.png" size="4322">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZqV0NNOFUflE8ufYXY4HW249B7A=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SteveWoW\Me" issuerKeyHash="d5e8e51a24a0bae351da6e26f2e9ebf8c96d9771" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GNBDD3c7wcr6lLEXB/lArb8jzgY=</DigestValue></Reference></SignedInfo><SignatureValue>M2P6K4bc1/Y8TK2d0LR3dEYY4tFDQKaXEgjT//iOLA69WXhCl54l+bXD/sAKQaiTebFFrPVTDKuSUHLM2nGJmeizVwN5rBeCMnQOrO2zVO/bqEcW+bgkaq+59TifGOwhmAnUqNzCqV53SZgGOfp1AcGA9nYuEBZpkMLls71d0oE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sIRYxto1fxxMGR8gTD4njOIpzAwhBPd0PU63/t4P0w1lAEyBf/DaVJsN9Jno1q2PKGnyolPWaWVMjbElemYmalBUpHynWXgSYboiEUbdvmMUYEceOXRQi4shEJVkR3HRAUTB7LnJCrBAFoFoLoldVV3FMowNVV0XBHkPgieRPBc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="06ce23bfad40f90717b194facac13b770f43d018" Description="" Url=""><as:assemblyIdentity name="Risk.exe" version="1.0.0.7" publicKeyToken="9a8405eda396cc84" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SteveWoW\Me</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>v2cdmE2nUDI3uigESUUjVYtCli8=</DigestValue></Reference></SignedInfo><SignatureValue>KfsIUzQ9m8rwUX2U9dNaA8Q8Sxxk8k3HXVGSYzIk4L2+uCxwOVZhFmjbYK7wsv3eFnUxbMqaVJl0HbBap9/vY7Sk/AFUDoDPmxyZpnY568JF5vXS6BKsujgd9mAJzxL3FLTl54hBSt74SQjmloBUfYlYlMTlNp8LwXGF7ofjOC4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sIRYxto1fxxMGR8gTD4njOIpzAwhBPd0PU63/t4P0w1lAEyBf/DaVJsN9Jno1q2PKGnyolPWaWVMjbElemYmalBUpHynWXgSYboiEUbdvmMUYEceOXRQi4shEJVkR3HRAUTB7LnJCrBAFoFoLoldVV3FMowNVV0XBHkPgieRPBc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQG7SKkUzfr49I3dvSPmbSTjANBgkqhkiG9w0BAQUFADAhMR8wHQYDVQQDHhYAUwB0AGUAdgBlAFcAbwBXAFwATQBlMB4XDTEwMDUwMzAxMTcwN1oXDTExMDUwMzA3MTcwN1owITEfMB0GA1UEAx4WAFMAdABlAHYAZQBXAG8AVwBcAE0AZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsIRYxto1fxxMGR8gTD4njOIpzAwhBPd0PU63/t4P0w1lAEyBf/DaVJsN9Jno1q2PKGnyolPWaWVMjbElemYmalBUpHynWXgSYboiEUbdvmMUYEceOXRQi4shEJVkR3HRAUTB7LnJCrBAFoFoLoldVV3FMowNVV0XBHkPgieRPBcCAwEAATANBgkqhkiG9w0BAQUFAAOBgQCAlRaLof8dKDkWV7cGjJfbG7nu5wwnTJDdB8skG9OgrIbvlbGC47g5N/J9CgXbkA7rcryReGdye3Y4QREGNP9jq/VVfx92taDKaCe2GmGdRSrVAlZjneO83FSIYwBY9HfzuYp8n5KYBV0Mx/Qca5kLYVYO7zuAX+RK+Nmo8Wd70Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
